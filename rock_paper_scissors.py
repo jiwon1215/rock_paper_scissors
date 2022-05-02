@@ -1,11 +1,19 @@
 import random
 
+<<<<<<< HEAD
 ROCK = 'r'
 PAPER = 'p'
 SCISSORS = 's'
 
 class Player:
     pass
+=======
+ROCK = 'rock'
+PAPER = 'paper'
+SCISSORS = 'scissors'
+
+class Player:
+>>>>>>> feature/player
     def __init__(self):
         self.num_wins = 0
         self.hand = ''
